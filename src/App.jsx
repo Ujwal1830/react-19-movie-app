@@ -25,6 +25,7 @@ function App() {
       <div className="pattern" />
       <div className="wrapper">
         <header>
+          <img className='w-16 h-auto -mb-10' src="logo.png" alt="" />
           <img src="./hero-img.png" alt="Hero Banner" />
           <h1>Find <span className="text-gradient">Movies</span> You'll Enjoy Without the Hussle</h1>
           <Search searchTerm={searchTerm} setSearchTerm={setSearchTerm} />
